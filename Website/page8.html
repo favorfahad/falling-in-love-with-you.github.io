@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 8 - Forever</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('background.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #8b0000; /* Dark red text */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #ff1493; /* Deep pink */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease-in-out; /* 1-second transition */
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            max-width: 90%;
+            line-height: 1.6;
+            animation: fadeIn 1s ease-in-out; /* 1-second transition */
+        }
+
+        .next-button {
+            background-color: #ff69b4; /* Hot pink */
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 1s ease, transform 1s ease; /* 1-second transition */
+            animation: fadeIn 1s ease-in-out; /* 1-second transition */
+        }
+
+        .next-button:hover {
+            background-color: #ff4500; /* Orange-red */
+            transform: scale(1.1);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>I am sorry,</h1>
+    <p>for not giving you the compliment which you deserve, because i don’t want to bore you,
+        for the same words you have heard.
+        I am sorry, for not telling you that what lies beyond; lies beyond the skies, is what your pretty smile that won’t let me close my eyes.
+        For this once forgive me, or not, because each time when i forget to compliment you,
+        I may value the gorgeous, which i might loose.</p>
+    <button class="next-button" onclick="window.location.href='index.html'">I love you ;)</button>
+</body>
+</html>

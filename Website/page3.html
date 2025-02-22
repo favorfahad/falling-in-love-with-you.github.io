@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3 - Memories</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('background.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #8b0000; /* Dark red text */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #ff1493; /* Deep pink */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease-in-out; /* 1-second transition */
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            max-width: 90%;
+            line-height: 1.6;
+            animation: fadeIn 1s ease-in-out; /* 1-second transition */
+        }
+
+        .next-button {
+            background-color: #ff69b4; /* Hot pink */
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 1s ease, transform 1s ease; /* 1-second transition */
+            animation: fadeIn 1s ease-in-out; /* 1-second transition */
+        }
+
+        .next-button:hover {
+            background-color: #ff4500; /* Orange-red */
+            transform: scale(1.1);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>A single compliment,</h1>
+    <p> is what i forget to give, for what it means to me, is my whole life ahead. <br>
+        I won’t say i have lost it, 
+        lost to compliment you better than those girls, <br>
+        but i have gotten distracted, in learning to make these things for you, which you also deserve.
+    </p>
+    <button class="next-button" onclick="window.location.href='page4.html'">Next</button>
+</body>
+</html>
